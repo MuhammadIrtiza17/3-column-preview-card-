@@ -1,0 +1,129 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body{
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 20%;
+}
+p{
+  font-size: 0.6rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  font-weight: lighter ;  
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.cards{
+     width: 16%;
+     height: 90%;
+     padding: 2%;
+}
+#card_container{
+  color: white;
+
+     width: 70%;
+     height: 50%;
+     display: flex;
+     flex-direction: row;
+     border: 1px solid purple;
+     justify-content:center;
+     margin: 0% auto;
+}
+
+main{
+  margin-bottom: 2%;
+  width: 100%;
+  height: fit-content;
+  border: 1px solid green;
+}
+img{
+  width: 25%;
+  height: 25%;
+}
+button{
+   border-radius: 45px ;
+   padding: 5%;
+   color: white;
+   border: 1px solid white;
+}
+
+#first{
+   background-color: #e28525;
+   border-radius: 5% 0% 0% 5% ;
+  }
+#second{
+   background-color:#016972 ;
+}
+#third{
+   background-color: #00403f;
+   border-radius: 0% 5% 5% 0% ;
+
+}
+
+#first button{
+  background-color: #e28525;}
+#second button{
+  background-color:#016972 ;
+}
+#third button{
+  background-color: #00403f;
+}
+
+
+#first button:hover{
+  color: #e28525;
+  cursor: pointer;
+background-color: #fff;}
+#second button:hover{
+ color:#016972 ;
+ cursor: pointer;
+ background-color: #fff;
+}
+#third button:hover{
+  color: #00403f;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 1173px){
+  body{
+      position: absolute;
+      top: 10%;
+      bottom: 10%;
+      left: 5%;
+      right: 5%;
+  }
+
+  #card_container{
+     
+       display: flex;
+       flex-direction: column;
+       justify-self: center;
+  }
+  .cards{
+    min-width: 10em;
+    margin: 0% auto;
+    min-height: 80%;
+    font-size: 1rem;
+  }
+  
+#first{
+  background-color: #e28525;
+  border-radius: 5% 5% 0% 0% ;
+ }
+#second{
+  background-color:#016972 ;
+}
+#third{
+  background-color: #00403f;
+  border-radius: 0% 0% 5% 5% ;
+
+}
